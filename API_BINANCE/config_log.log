@@ -1,0 +1,6 @@
+ERROR:root:An error occurred in file 'main.py', line 153: can only concatenate str (not "coroutine") to str
+Traceback (most recent call last):
+  File "/home/kali/Desktop/ALL_PROJECT/TREADING/GRID_ASSIS_3.0_Futures/main.py", line 141, in go_tgButton_handler
+    tg_reply = ',\n'.join(coins_in_squeezeOn_toStr) + '/n' + curDatee
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+TypeError: can only concatenate str (not "coroutine") to str
